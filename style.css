@@ -139,14 +139,20 @@
     .description {
 
         padding: 10px;
-    }
+
+
+            }
      .description > span{
         opacity: 0.5;
+       
+
+
     }
     .descript{
         display: flex;
         justify-content: space-between;
         flex-direction: row;
+
 
     }
     .pied_de_page{
@@ -272,9 +278,16 @@
         display: flex;
         justify-content: space-between;
         width: 90%;
+
     }
     .supplement > div{   
-        opacity: 0.6;
+        opacity: 0.6;     
+    }
+    .sup{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        
     }
     .Nom{
         display: flex;
@@ -694,6 +707,12 @@
     .supplement > div{   
         opacity: 0.6;
     }
+    .sup{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        
+    }
     .Nom{
         display: flex;
         flex-direction: row;
@@ -966,10 +985,12 @@
 
         padding: 10px;
     }
+       
     .descript{
         display: flex;
         justify-content: space-between;
         flex-direction: row;
+
 
     }
     .description > span{
@@ -1108,6 +1129,12 @@
     }
     .supplement > div{   
         opacity: 0.6;
+    }
+      .sup{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        
     }
     .Nom{
         display: flex;
